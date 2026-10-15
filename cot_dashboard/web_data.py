@@ -33,6 +33,12 @@ MARKET_SYMBOLS: dict[str, str] = {
     "nasdaq_100": "QQQ",
     "sp_500": "SPY",
     "dxy": "DX-Y.NYB",
+    "russell_2000": "RTY=F",
+    "vix": "VX=F",
+    "eur_usd": "6E=F",
+    "treasury_10y": "ZN=F",
+    "treasury_2y": "ZT=F",
+    "gold": "GC=F",
 }
 
 WATCHLIST_CANDIDATES: list[dict[str, Optional[str]]] = [
@@ -40,13 +46,12 @@ WATCHLIST_CANDIDATES: list[dict[str, Optional[str]]] = [
     {"symbol": "QQQ", "label": "Nasdaq-100 (QQQ)", "market_key": "nasdaq_100"},
     {"symbol": "SPY", "label": "S&P 500 (SPY)", "market_key": "sp_500"},
     {"symbol": "DX-Y.NYB", "label": "Dollar Index (DXY)", "market_key": "dxy"},
-    {"symbol": "ES=F", "label": "E-mini S&P (ES)", "market_key": None},
-    {"symbol": "NQ=F", "label": "E-mini Nasdaq (NQ)", "market_key": None},
-    {"symbol": "YM=F", "label": "Mini Dow (YM)", "market_key": None},
-    {"symbol": "RTY=F", "label": "Russell 2000 (RTY)", "market_key": None},
-    {"symbol": "CL=F", "label": "Crude Oil (CL)", "market_key": None},
-    {"symbol": "GC=F", "label": "Gold (GC)", "market_key": None},
-    {"symbol": "6E=F", "label": "Euro FX (6E)", "market_key": None},
+    {"symbol": "RTY=F", "label": "Russell 2000 (RTY)", "market_key": "russell_2000"},
+    {"symbol": "VX=F", "label": "VIX Futures (VX)", "market_key": "vix"},
+    {"symbol": "6E=F", "label": "Euro FX (6E)", "market_key": "eur_usd"},
+    {"symbol": "ZN=F", "label": "10-Year T-Notes (ZN)", "market_key": "treasury_10y"},
+    {"symbol": "ZT=F", "label": "2-Year T-Notes (ZT)", "market_key": "treasury_2y"},
+    {"symbol": "GC=F", "label": "Gold (GC)", "market_key": "gold"},
 ]
 
 FF_CALENDAR_URL = "https://nfs.faireconomy.media/ff_calendar_thisweek.xml"

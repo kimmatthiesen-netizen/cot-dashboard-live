@@ -15,17 +15,36 @@ DEFAULT_COT_URL = os.getenv("COT_FINANCIAL_URL", DEFAULT_COT_JSON_URL)
 CACHE_PATH = Path(os.getenv("COT_CACHE_PATH", "build/cot_financial.csv"))
 SAMPLE_PATH = Path(__file__).resolve().parent.parent / "data" / "sample_financial_futures.csv"
 
-DEFAULT_INDEX_ORDER = ("dow_jones", "nasdaq_100", "sp_500", "dxy")
+DEFAULT_INDEX_ORDER = (
+    "dow_jones",
+    "nasdaq_100",
+    "sp_500",
+    "dxy",
+    "russell_2000",
+    "vix",
+    "eur_usd",
+    "treasury_10y",
+    "treasury_2y",
+    "gold",
+)
 
-# Focus the Socrata query to the requested equity indexes + dollar index.
+# Focus the Socrata query to the refined list of indexes and contracts.
 INDEX_QUERY_WHERE = (
     "(futonly_or_combined = 'FutOnly' OR futonly_or_combined is null) AND ("
     "cftc_contract_market_code in "
-    "('12460+','124603','124601','20974+','209742','13874+','13874A','138741','098662') "
+    "('12460+','124603','124601','20974+','209742','13874+','13874A','138741','098662',"
+    "'23974+','239742','117061','11706+','011706','099741','09974+',"
+    "'043602','04360+','042601','04260+','088691','08869+') "
     "OR market_and_exchange_names like '%DJIA Consolidated%' "
     "OR market_and_exchange_names like '%NASDAQ-100 Consolidated%' "
     "OR market_and_exchange_names like '%S&P 500 Consolidated%' "
-    "OR market_and_exchange_names like '%DOLLAR INDEX%')"
+    "OR market_and_exchange_names like '%DOLLAR INDEX%' "
+    "OR market_and_exchange_names like '%E-MINI RUSSELL 2000%' "
+    "OR market_and_exchange_names like '%VIX FUTURES%' "
+    "OR market_and_exchange_names like '%EURO FX%' "
+    "OR market_and_exchange_names like '%10-YEAR U.S. TREASURY NOTES%' "
+    "OR market_and_exchange_names like '%2-YEAR U.S. TREASURY NOTES%' "
+    "OR market_and_exchange_names like '%GOLD%')"
 )
 
 
@@ -61,6 +80,42 @@ INDEX_MARKETS: dict[str, IndexMarket] = {
         label="U.S. Dollar Index",
         preferred_codes=("098662",),
         name_patterns=(r"U\\.S\\. DOLLAR INDEX", r"US DOLLAR INDEX", r"DOLLAR INDEX"),
+    ),
+    "russell_2000": IndexMarket(
+        key="russell_2000",
+        label="Russell 2000",
+        preferred_codes=("23974+", "239742"),
+        name_patterns=(r"E-MINI RUSSELL 2000", r"RUSSELL 2000 INDEX"),
+    ),
+    "vix": IndexMarket(
+        key="vix",
+        label="VIX Futures",
+        preferred_codes=("117061", "11706+", "011706"),
+        name_patterns=(r"S&P 500 VIX", r"VIX FUTURES"),
+    ),
+    "eur_usd": IndexMarket(
+        key="eur_usd",
+        label="EUR/USD Futures",
+        preferred_codes=("099741", "09974+"),
+        name_patterns=(r"EURO FX", r"EUR/USD"),
+    ),
+    "treasury_10y": IndexMarket(
+        key="treasury_10y",
+        label="10-Year U.S. Treasury Notes",
+        preferred_codes=("043602", "04360+"),
+        name_patterns=(r"10-YEAR U\.S\. TREASURY NOTES", r"10 YEAR TREASURY NOTE"),
+    ),
+    "treasury_2y": IndexMarket(
+        key="treasury_2y",
+        label="2-Year U.S. Treasury Notes",
+        preferred_codes=("042601", "04260+"),
+        name_patterns=(r"2-YEAR U\.S\. TREASURY NOTES", r"2 YEAR TREASURY NOTE"),
+    ),
+    "gold": IndexMarket(
+        key="gold",
+        label="Gold",
+        preferred_codes=("088691", "08869+"),
+        name_patterns=(r"GOLD - COMMODITY EXCHANGE INC\.", r"\bGOLD\b"),
     ),
 }
 
