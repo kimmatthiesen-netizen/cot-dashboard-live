@@ -25,7 +25,6 @@ DEFAULT_INDEX_ORDER = (
     "eur_usd",
     "treasury_10y",
     "treasury_2y",
-    "gold",
 )
 
 # Focus the Socrata query to the refined list of indexes and contracts.
@@ -34,7 +33,7 @@ INDEX_QUERY_WHERE = (
     "cftc_contract_market_code in "
     "('12460+','124603','124601','20974+','209742','13874+','13874A','138741','098662',"
     "'23974+','239742','117061','11706+','011706','099741','09974+',"
-    "'043602','04360+','042601','04260+','088691','08869+') "
+    "'043602','04360+','042601','04260+') "
     "OR market_and_exchange_names like '%DJIA Consolidated%' "
     "OR market_and_exchange_names like '%NASDAQ-100 Consolidated%' "
     "OR market_and_exchange_names like '%S&P 500 Consolidated%' "
@@ -43,8 +42,7 @@ INDEX_QUERY_WHERE = (
     "OR market_and_exchange_names like '%VIX FUTURES%' "
     "OR market_and_exchange_names like '%EURO FX%' "
     "OR market_and_exchange_names like '%10-YEAR U.S. TREASURY NOTES%' "
-    "OR market_and_exchange_names like '%2-YEAR U.S. TREASURY NOTES%' "
-    "OR market_and_exchange_names like '%GOLD%')"
+    "OR market_and_exchange_names like '%2-YEAR U.S. TREASURY NOTES%' )"
 )
 
 
@@ -110,12 +108,6 @@ INDEX_MARKETS: dict[str, IndexMarket] = {
         label="2-Year U.S. Treasury Notes",
         preferred_codes=("042601", "04260+"),
         name_patterns=(r"2-YEAR U\.S\. TREASURY NOTES", r"2 YEAR TREASURY NOTE"),
-    ),
-    "gold": IndexMarket(
-        key="gold",
-        label="Gold",
-        preferred_codes=("088691", "08869+"),
-        name_patterns=(r"GOLD - COMMODITY EXCHANGE INC\.", r"\bGOLD\b"),
     ),
 }
 

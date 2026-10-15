@@ -34,11 +34,10 @@ MARKET_SYMBOLS: dict[str, str] = {
     "sp_500": "SPY",
     "dxy": "DX-Y.NYB",
     "russell_2000": "RTY=F",
-    "vix": "VX=F",
+    "vix": "^VIX",
     "eur_usd": "6E=F",
     "treasury_10y": "ZN=F",
     "treasury_2y": "ZT=F",
-    "gold": "GC=F",
 }
 
 WATCHLIST_CANDIDATES: list[dict[str, Optional[str]]] = [
@@ -51,7 +50,6 @@ WATCHLIST_CANDIDATES: list[dict[str, Optional[str]]] = [
     {"symbol": "6E=F", "label": "Euro FX (6E)", "market_key": "eur_usd"},
     {"symbol": "ZN=F", "label": "10-Year T-Notes (ZN)", "market_key": "treasury_10y"},
     {"symbol": "ZT=F", "label": "2-Year T-Notes (ZT)", "market_key": "treasury_2y"},
-    {"symbol": "GC=F", "label": "Gold (GC)", "market_key": "gold"},
 ]
 
 FF_CALENDAR_URL = "https://nfs.faireconomy.media/ff_calendar_thisweek.xml"
