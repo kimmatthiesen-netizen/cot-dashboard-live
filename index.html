@@ -37,6 +37,11 @@
         --track: rgba(255, 255, 255, 0.15);
         --shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
         --radius: 24px;
+        --select-bg: #151b27;
+        --hover-bg: #161c28;
+        --hover-border: rgba(148, 163, 184, 0.35);
+        --hover-text: #e5e9f2;
+        color-scheme: dark;
       }
 
       :root[data-theme="light"] {
@@ -50,6 +55,11 @@
         --soft: #7b879b;
         --track: rgba(100, 116, 139, 0.2);
         --shadow: 0 24px 66px rgba(15, 23, 42, 0.14);
+        --select-bg: #ffffff;
+        --hover-bg: #ffffff;
+        --hover-border: rgba(100, 116, 139, 0.35);
+        --hover-text: #1e293b;
+        color-scheme: light;
       }
 
       * {
@@ -700,6 +710,16 @@
         font-size: 0.78rem;
       }
 
+      select option,
+      select optgroup {
+        background-color: var(--select-bg);
+        color: var(--text);
+      }
+
+      select option:disabled {
+        color: var(--soft);
+      }
+
       .watch-grid {
         margin-top: 0.62rem;
         display: grid;
@@ -800,6 +820,24 @@
         letter-spacing: 0.08em;
         text-transform: uppercase;
         color: var(--muted);
+      }
+
+      .pill.is-bull {
+        color: var(--bull);
+        border-color: color-mix(in srgb, var(--bull) 55%, transparent);
+        background: color-mix(in srgb, var(--bull) 14%, transparent);
+      }
+
+      .pill.is-bear {
+        color: var(--bear);
+        border-color: color-mix(in srgb, var(--bear) 55%, transparent);
+        background: color-mix(in srgb, var(--bear) 14%, transparent);
+      }
+
+      .pill.is-neutral {
+        color: var(--neutral);
+        border-color: color-mix(in srgb, var(--neutral) 55%, transparent);
+        background: color-mix(in srgb, var(--neutral) 14%, transparent);
       }
 
       .muted {
@@ -1724,6 +1762,18 @@
           .join("");
       }
 
+      function hoverLabelStyle(dark) {
+        return {
+          bgcolor: dark ? "#161c28" : "#ffffff",
+          bordercolor: dark ? "rgba(148,163,184,0.35)" : "rgba(100,116,139,0.35)",
+          font: {
+            family: "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+            size: 12,
+            color: dark ? "#e5e9f2" : "#1e293b",
+          },
+        };
+      }
+
       function renderCOTChart(market) {
         const history = market.history || [];
         if (!history.length) return;
@@ -1792,6 +1842,7 @@
           plot_bgcolor: dark ? "rgba(14,18,26,0.78)" : "rgba(255,255,255,0.74)",
           font: { family: "Inter, -apple-system, BlinkMacSystemFont, sans-serif", color: dark ? "#d5dbe8" : "#334155" },
           hovermode: "x unified",
+          hoverlabel: hoverLabelStyle(dark),
           legend: { orientation: "h", y: 1.12, x: 0 },
           xaxis: {
             type: "date",
@@ -1870,6 +1921,7 @@
           font: { family: "Inter, -apple-system, BlinkMacSystemFont, sans-serif", color: dark ? "#d5dbe8" : "#334155" },
           legend: { orientation: "h", y: 1.14, x: 0 },
           hovermode: "x",
+          hoverlabel: hoverLabelStyle(dark),
           xaxis: {
             type: "date",
             tickformat: "%H:%M",
