@@ -32,7 +32,7 @@ jobs:
         run: |
           python -m cot_dashboard.web_data \
             --force-refresh \
-            --history-weeks 104 \
+            --history-weeks 208 \
             --output data/cot_snapshot.json
 
       - name: Send pre-news push alerts
