@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+data/cot_snapshot.json
+data/news_alert_state.json
