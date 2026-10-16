@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-16T20:17:12Z",
+  "generated_at_utc": "2026-10-16T22:06:33Z",
   "source_url": "https://publicreporting.cftc.gov/resource/udgc-27he.json",
   "history_weeks": 208,
   "market_order": [
@@ -5527,7 +5527,7 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "as_of_utc": "2026-10-16T20:00:00Z",
-        "last_price": 763.23,
+        "last_price": 763.25,
         "day_change_pct": -1.11,
         "pulse_score": 0,
         "pulse_label": "BEARISH",
@@ -5537,15 +5537,15 @@
           "opening_range_high": 773.25,
           "opening_range_low": 771.0,
           "opening_range_state": "Below OR Low",
-          "ema20": 762.8468,
-          "ema50": 764.3083,
+          "ema20": 762.8487,
+          "ema50": 764.3091,
           "ema_stack": "Mixed Stack",
           "pivot": 769.67,
-          "price_vs_pivot_pct": -0.84,
+          "price_vs_pivot_pct": -0.83,
           "prior_day_high": 772.87,
           "prior_day_low": 764.43,
-          "price_vs_prior_high_pct": -1.25,
-          "price_vs_prior_low_pct": -0.16,
+          "price_vs_prior_high_pct": -1.24,
+          "price_vs_prior_low_pct": -0.15,
           "session_structure": "AM Range Breakout Down"
         },
         "spark": {
@@ -5942,7 +5942,7 @@
             },
             {
               "t": "2026-10-16T20:00:00Z",
-              "p": 763.23,
+              "p": 763.25,
               "v": 0
             }
           ],
@@ -9756,7 +9756,7 @@
         "symbol": "^RUT",
         "label": "Russell 2000",
         "as_of_utc": "2026-10-16T20:00:00Z",
-        "last_price": 2721.3704,
+        "last_price": 2721.3701,
         "day_change_pct": -1.66,
         "pulse_score": 0,
         "pulse_label": "BEARISH",
@@ -9766,7 +9766,7 @@
           "opening_range_high": 2771.7253,
           "opening_range_low": 2765.4407,
           "opening_range_state": "Below OR Low",
-          "ema20": 2720.9148,
+          "ema20": 2720.9147,
           "ema50": 2727.5794,
           "ema_stack": "Mixed Stack",
           "pivot": 2753.3525,
@@ -10171,7 +10171,7 @@
             },
             {
               "t": "2026-10-16T20:00:00Z",
-              "p": 2721.3704,
+              "p": 2721.3701,
               "v": 0
             }
           ],
@@ -11867,26 +11867,26 @@
       "intraday": {
         "symbol": "^VIX",
         "label": "VIX Futures",
-        "as_of_utc": "2026-10-16T20:00:00Z",
-        "last_price": 20.16,
-        "day_change_pct": 22.48,
+        "as_of_utc": "2026-10-16T20:15:00Z",
+        "last_price": 19.99,
+        "day_change_pct": 21.45,
         "pulse_score": 100,
         "pulse_label": "BULLISH",
         "metrics": {
-          "vwap": 18.8631,
-          "price_vs_vwap_pct": 6.88,
+          "vwap": 18.9117,
+          "price_vs_vwap_pct": 5.7,
           "opening_range_high": 16.06,
           "opening_range_low": 15.72,
           "opening_range_state": "Above OR High",
-          "ema20": 20.3497,
-          "ema50": 19.6544,
+          "ema20": 20.258,
+          "ema50": 19.693,
           "ema_stack": "Mixed Stack",
           "pivot": 16.78,
-          "price_vs_pivot_pct": 20.14,
+          "price_vs_pivot_pct": 19.13,
           "prior_day_high": 17.54,
           "prior_day_low": 16.34,
-          "price_vs_prior_high_pct": 14.94,
-          "price_vs_prior_low_pct": 23.38,
+          "price_vs_prior_high_pct": 13.97,
+          "price_vs_prior_low_pct": 22.34,
           "session_structure": "AM Range Breakout Up"
         },
         "spark": {
@@ -12223,7 +12223,22 @@
             },
             {
               "t": "2026-10-16T20:00:00Z",
-              "p": 20.16,
+              "p": 20.15,
+              "v": 0
+            },
+            {
+              "t": "2026-10-16T20:05:00Z",
+              "p": 20.03,
+              "v": 0
+            },
+            {
+              "t": "2026-10-16T20:10:00Z",
+              "p": 19.98,
+              "v": 0
+            },
+            {
+              "t": "2026-10-16T20:15:00Z",
+              "p": 19.99,
               "v": 0
             }
           ],
@@ -12583,9 +12598,9 @@
         "technical_score": 100,
         "cot_weight": 55,
         "technical_weight": 45,
-        "headline": "Bias bullish: expect dips bought while price holds above 18.86.",
+        "headline": "Bias bullish: expect dips bought while price holds above 18.91.",
         "bullets": [
-          "Long bias above VWAP 18.86.",
+          "Long bias above VWAP 18.91.",
           "Momentum confirmation on breaks through OR high 16.06.",
           "If structure rotates below VWAP, reduce long aggression."
         ]
@@ -20641,7 +20656,7 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "as_of_utc": "2026-10-16T20:00:00Z",
-        "last_price": 763.23,
+        "last_price": 763.25,
         "day_change_pct": -1.11,
         "pulse_score": 0,
         "pulse_label": "BEARISH",
@@ -20651,15 +20666,15 @@
           "opening_range_high": 773.25,
           "opening_range_low": 771.0,
           "opening_range_state": "Below OR Low",
-          "ema20": 762.8468,
-          "ema50": 764.3083,
+          "ema20": 762.8487,
+          "ema50": 764.3091,
           "ema_stack": "Mixed Stack",
           "pivot": 769.67,
-          "price_vs_pivot_pct": -0.84,
+          "price_vs_pivot_pct": -0.83,
           "prior_day_high": 772.87,
           "prior_day_low": 764.43,
-          "price_vs_prior_high_pct": -1.25,
-          "price_vs_prior_low_pct": -0.16,
+          "price_vs_prior_high_pct": -1.24,
+          "price_vs_prior_low_pct": -0.15,
           "session_structure": "AM Range Breakout Down"
         },
         "spark": {
@@ -21056,7 +21071,7 @@
             },
             {
               "t": "2026-10-16T20:00:00Z",
-              "p": 763.23,
+              "p": 763.25,
               "v": 0
             }
           ],
@@ -22302,7 +22317,7 @@
         "symbol": "^RUT",
         "label": "Russell 2000",
         "as_of_utc": "2026-10-16T20:00:00Z",
-        "last_price": 2721.3704,
+        "last_price": 2721.3701,
         "day_change_pct": -1.66,
         "pulse_score": 0,
         "pulse_label": "BEARISH",
@@ -22312,7 +22327,7 @@
           "opening_range_high": 2771.7253,
           "opening_range_low": 2765.4407,
           "opening_range_state": "Below OR Low",
-          "ema20": 2720.9148,
+          "ema20": 2720.9147,
           "ema50": 2727.5794,
           "ema_stack": "Mixed Stack",
           "pivot": 2753.3525,
@@ -22717,7 +22732,7 @@
             },
             {
               "t": "2026-10-16T20:00:00Z",
-              "p": 2721.3704,
+              "p": 2721.3701,
               "v": 0
             }
           ],
@@ -23129,26 +23144,26 @@
       "intraday": {
         "symbol": "^VIX",
         "label": "VIX Futures",
-        "as_of_utc": "2026-10-16T20:00:00Z",
-        "last_price": 20.16,
-        "day_change_pct": 22.48,
+        "as_of_utc": "2026-10-16T20:15:00Z",
+        "last_price": 19.99,
+        "day_change_pct": 21.45,
         "pulse_score": 100,
         "pulse_label": "BULLISH",
         "metrics": {
-          "vwap": 18.8631,
-          "price_vs_vwap_pct": 6.88,
+          "vwap": 18.9117,
+          "price_vs_vwap_pct": 5.7,
           "opening_range_high": 16.06,
           "opening_range_low": 15.72,
           "opening_range_state": "Above OR High",
-          "ema20": 20.3497,
-          "ema50": 19.6544,
+          "ema20": 20.258,
+          "ema50": 19.693,
           "ema_stack": "Mixed Stack",
           "pivot": 16.78,
-          "price_vs_pivot_pct": 20.14,
+          "price_vs_pivot_pct": 19.13,
           "prior_day_high": 17.54,
           "prior_day_low": 16.34,
-          "price_vs_prior_high_pct": 14.94,
-          "price_vs_prior_low_pct": 23.38,
+          "price_vs_prior_high_pct": 13.97,
+          "price_vs_prior_low_pct": 22.34,
           "session_structure": "AM Range Breakout Up"
         },
         "spark": {
@@ -23485,7 +23500,22 @@
             },
             {
               "t": "2026-10-16T20:00:00Z",
-              "p": 20.16,
+              "p": 20.15,
+              "v": 0
+            },
+            {
+              "t": "2026-10-16T20:05:00Z",
+              "p": 20.03,
+              "v": 0
+            },
+            {
+              "t": "2026-10-16T20:10:00Z",
+              "p": 19.98,
+              "v": 0
+            },
+            {
+              "t": "2026-10-16T20:15:00Z",
+              "p": 19.99,
               "v": 0
             }
           ],
@@ -26321,7 +26351,7 @@
   },
   "forex_factory": {
     "source": "https://nfs.faireconomy.media/ff_calendar_thisweek.xml",
-    "fetched_at_utc": "2026-10-16T20:17:14Z",
+    "fetched_at_utc": "2026-10-16T22:06:34Z",
     "red_folder_count": 9,
     "high_impact_total_count": 13,
     "relevance_filter": "Major USD macro/Fed events for US index trading",
