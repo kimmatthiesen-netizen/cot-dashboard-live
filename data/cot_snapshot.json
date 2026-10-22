@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-22T20:11:35Z",
+  "generated_at_utc": "2026-10-22T23:24:52Z",
   "source_url": "https://publicreporting.cftc.gov/resource/udgc-27he.json",
   "history_weeks": 208,
   "market_order": [
@@ -1303,25 +1303,25 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "as_of_utc": "2026-10-22T20:00:00Z",
-        "last_price": 527.8617,
-        "day_change_pct": 0.03,
+        "last_price": 527.89,
+        "day_change_pct": 0.04,
         "pulse_score": 100,
         "pulse_label": "BULLISH",
         "metrics": {
-          "vwap": 526.756,
+          "vwap": 526.7612,
           "price_vs_vwap_pct": 0.21,
           "opening_range_high": 527.34,
           "opening_range_low": 524.825,
           "opening_range_state": "Above OR High",
-          "ema20": 527.2122,
-          "ema50": 526.9815,
+          "ema20": 527.2149,
+          "ema50": 526.9826,
           "ema_stack": "Bull Stack",
           "pivot": 526.21,
-          "price_vs_pivot_pct": 0.31,
+          "price_vs_pivot_pct": 0.32,
           "prior_day_high": 527.7899,
           "prior_day_low": 523.15,
-          "price_vs_prior_high_pct": 0.01,
-          "price_vs_prior_low_pct": 0.9,
+          "price_vs_prior_high_pct": 0.02,
+          "price_vs_prior_low_pct": 0.91,
           "session_structure": "AM Range Breakout Up"
         },
         "spark": {
@@ -1714,11 +1714,11 @@
             {
               "t": "2026-10-22T19:55:00Z",
               "p": 527.88,
-              "v": 163479
+              "v": 177598
             },
             {
               "t": "2026-10-22T20:00:00Z",
-              "p": 527.8617,
+              "p": 527.89,
               "v": 0
             }
           ],
@@ -5527,25 +5527,25 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "as_of_utc": "2026-10-22T20:00:00Z",
-        "last_price": 764.06,
-        "day_change_pct": -1.17,
+        "last_price": 763.96,
+        "day_change_pct": -1.18,
         "pulse_score": 36,
         "pulse_label": "BEARISH",
         "metrics": {
-          "vwap": 763.4884,
-          "price_vs_vwap_pct": 0.07,
+          "vwap": 763.4909,
+          "price_vs_vwap_pct": 0.06,
           "opening_range_high": 767.45,
           "opening_range_low": 765.35,
           "opening_range_state": "Below OR Low",
-          "ema20": 762.7889,
-          "ema50": 763.1319,
+          "ema20": 762.7811,
+          "ema50": 763.1287,
           "ema_stack": "Mixed Stack",
           "pivot": 771.99,
-          "price_vs_pivot_pct": -1.03,
+          "price_vs_pivot_pct": -1.04,
           "prior_day_high": 774.44,
           "prior_day_low": 768.4,
-          "price_vs_prior_high_pct": -1.34,
-          "price_vs_prior_low_pct": -0.56,
+          "price_vs_prior_high_pct": -1.35,
+          "price_vs_prior_low_pct": -0.58,
           "session_structure": "Rotation Around VWAP"
         },
         "spark": {
@@ -5937,12 +5937,12 @@
             },
             {
               "t": "2026-10-22T19:55:00Z",
-              "p": 763.97,
-              "v": 4555772
+              "p": 763.99,
+              "v": 5063585
             },
             {
               "t": "2026-10-22T20:00:00Z",
-              "p": 764.06,
+              "p": 763.96,
               "v": 0
             }
           ],
@@ -7639,25 +7639,25 @@
         "symbol": "DX-Y.NYB",
         "label": "U.S. Dollar Index",
         "as_of_utc": "2026-10-22T20:00:00Z",
-        "last_price": 101.634,
-        "day_change_pct": -0.14,
-        "pulse_score": 0,
+        "last_price": 101.646,
+        "day_change_pct": 0.04,
+        "pulse_score": 10,
         "pulse_label": "BEARISH",
         "metrics": {
-          "vwap": 101.6904,
-          "price_vs_vwap_pct": -0.06,
+          "vwap": 101.6905,
+          "price_vs_vwap_pct": -0.04,
           "opening_range_high": 101.848,
           "opening_range_low": 101.791,
           "opening_range_state": "Below OR Low",
-          "ema20": 101.6185,
-          "ema50": 101.6416,
+          "ema20": 101.6196,
+          "ema50": 101.642,
           "ema_stack": "Mixed Stack",
           "pivot": 101.726,
-          "price_vs_pivot_pct": -0.09,
+          "price_vs_pivot_pct": -0.08,
           "prior_day_high": 101.838,
           "prior_day_low": 101.637,
-          "price_vs_prior_high_pct": -0.2,
-          "price_vs_prior_low_pct": -0.0,
+          "price_vs_prior_high_pct": -0.19,
+          "price_vs_prior_low_pct": 0.01,
           "session_structure": "AM Range Breakout Down"
         },
         "spark": {
@@ -8054,7 +8054,7 @@
             },
             {
               "t": "2026-10-22T20:00:00Z",
-              "p": 101.634,
+              "p": 101.646,
               "v": 0
             }
           ],
@@ -8458,10 +8458,10 @@
         }
       },
       "confluence": {
-        "score": 45,
+        "score": 49,
         "label": "NEUTRAL",
         "cot_score": 81,
-        "technical_score": 0,
+        "technical_score": 10,
         "cot_weight": 55,
         "technical_weight": 45,
         "headline": "Bias neutral: balance around 101.69, wait for range break.",
@@ -9755,19 +9755,19 @@
       "intraday": {
         "symbol": "^RUT",
         "label": "Russell 2000",
-        "as_of_utc": "2026-10-22T19:55:00Z",
-        "last_price": 2783.9888,
+        "as_of_utc": "2026-10-22T20:00:00Z",
+        "last_price": 2784.0261,
         "day_change_pct": 0.11,
         "pulse_score": 100,
         "pulse_label": "BULLISH",
         "metrics": {
-          "vwap": 2774.6309,
-          "price_vs_vwap_pct": 0.34,
+          "vwap": 2774.7495,
+          "price_vs_vwap_pct": 0.33,
           "opening_range_high": 2781.6816,
           "opening_range_low": 2762.7332,
           "opening_range_state": "Above OR High",
-          "ema20": 2777.5357,
-          "ema50": 2775.7324,
+          "ema20": 2778.1513,
+          "ema50": 2776.0565,
           "ema_stack": "Bull Stack",
           "pivot": 2781.8009,
           "price_vs_pivot_pct": 0.08,
@@ -10166,7 +10166,12 @@
             },
             {
               "t": "2026-10-22T19:55:00Z",
-              "p": 2783.9888,
+              "p": 2783.9595,
+              "v": 0
+            },
+            {
+              "t": "2026-10-22T20:00:00Z",
+              "p": 2784.0261,
               "v": 0
             }
           ],
@@ -10571,9 +10576,9 @@
         "technical_score": 100,
         "cot_weight": 55,
         "technical_weight": 45,
-        "headline": "Bias bullish: expect dips bought while price holds above 2774.63.",
+        "headline": "Bias bullish: expect dips bought while price holds above 2774.75.",
         "bullets": [
-          "Long bias above VWAP 2774.63.",
+          "Long bias above VWAP 2774.75.",
           "Momentum confirmation on breaks through OR high 2781.68.",
           "If structure rotates below VWAP, reduce long aggression."
         ]
@@ -11862,27 +11867,27 @@
       "intraday": {
         "symbol": "^VIX",
         "label": "VIX Futures",
-        "as_of_utc": "2026-10-22T19:56:31Z",
-        "last_price": 19.22,
-        "day_change_pct": 15.23,
-        "pulse_score": 88,
-        "pulse_label": "BULLISH",
+        "as_of_utc": "2026-10-22T20:15:00Z",
+        "last_price": 19.03,
+        "day_change_pct": 14.09,
+        "pulse_score": 52,
+        "pulse_label": "NEUTRAL",
         "metrics": {
-          "vwap": 19.194,
-          "price_vs_vwap_pct": 0.14,
+          "vwap": 19.1799,
+          "price_vs_vwap_pct": -0.78,
           "opening_range_high": 19.37,
           "opening_range_low": 19.02,
           "opening_range_state": "Inside OR",
-          "ema20": 19.5571,
-          "ema50": 19.4103,
+          "ema20": 19.3862,
+          "ema50": 19.3501,
           "ema_stack": "Mixed Stack",
           "pivot": 16.87,
-          "price_vs_pivot_pct": 13.93,
+          "price_vs_pivot_pct": 12.8,
           "prior_day_high": 17.42,
           "prior_day_low": 16.51,
-          "price_vs_prior_high_pct": 10.33,
-          "price_vs_prior_low_pct": 16.41,
-          "session_structure": "Rotation Around VWAP"
+          "price_vs_prior_high_pct": 9.24,
+          "price_vs_prior_low_pct": 15.26,
+          "session_structure": "Trend Continuation"
         },
         "spark": {
           "today": [
@@ -12213,12 +12218,27 @@
             },
             {
               "t": "2026-10-22T19:55:00Z",
-              "p": 19.27,
+              "p": 19.12,
               "v": 0
             },
             {
-              "t": "2026-10-22T19:56:31Z",
-              "p": 19.22,
+              "t": "2026-10-22T20:00:00Z",
+              "p": 18.87,
+              "v": 0
+            },
+            {
+              "t": "2026-10-22T20:05:00Z",
+              "p": 19.02,
+              "v": 0
+            },
+            {
+              "t": "2026-10-22T20:10:00Z",
+              "p": 19.04,
+              "v": 0
+            },
+            {
+              "t": "2026-10-22T20:15:00Z",
+              "p": 19.03,
               "v": 0
             }
           ],
@@ -12572,17 +12592,17 @@
         }
       },
       "confluence": {
-        "score": 56,
-        "label": "NEUTRAL",
+        "score": 39,
+        "label": "BEARISH",
         "cot_score": 29,
-        "technical_score": 88,
+        "technical_score": 52,
         "cot_weight": 55,
         "technical_weight": 45,
-        "headline": "Bias neutral: balance around 19.19, wait for range break.",
+        "headline": "Bias bearish: favor failed bounces below 19.18.",
         "bullets": [
-          "Respect OR boundaries 19.02-19.37.",
-          "Take quicker profits in choppy structure.",
-          "Switch directional only after clean acceptance outside range."
+          "Short bias below VWAP 19.18.",
+          "Acceleration setup under OR low 19.02.",
+          "If price reclaims and holds above VWAP, stand down."
         ]
       }
     },
@@ -13870,13 +13890,13 @@
         "symbol": "6E=F",
         "label": "EUR/USD Futures",
         "as_of_utc": "2026-10-22T20:00:00Z",
-        "last_price": 1.124,
-        "day_change_pct": -0.08,
+        "last_price": 1.1238,
+        "day_change_pct": -0.04,
         "pulse_score": 66,
         "pulse_label": "BULLISH",
         "metrics": {
           "vwap": 1.1233,
-          "price_vs_vwap_pct": 0.06,
+          "price_vs_vwap_pct": 0.05,
           "opening_range_high": 1.1227,
           "opening_range_low": 1.1217,
           "opening_range_state": "Above OR High",
@@ -13884,11 +13904,11 @@
           "ema50": 1.1241,
           "ema_stack": "Mixed Stack",
           "pivot": 1.1254,
-          "price_vs_pivot_pct": -0.13,
+          "price_vs_pivot_pct": -0.14,
           "prior_day_high": 1.1266,
           "prior_day_low": 1.124,
-          "price_vs_prior_high_pct": -0.23,
-          "price_vs_prior_low_pct": 0.0,
+          "price_vs_prior_high_pct": -0.24,
+          "price_vs_prior_low_pct": -0.01,
           "session_structure": "AM Range Breakout Up"
         },
         "spark": {
@@ -14285,8 +14305,8 @@
             },
             {
               "t": "2026-10-22T20:00:00Z",
-              "p": 1.124,
-              "v": 94
+              "p": 1.1238,
+              "v": 490
             }
           ],
           "yesterday": [
@@ -15987,25 +16007,25 @@
         "symbol": "ZN=F",
         "label": "10-Year U.S. Treasury Notes",
         "as_of_utc": "2026-10-22T20:00:00Z",
-        "last_price": 106.2969,
-        "day_change_pct": 1.13,
-        "pulse_score": 100,
+        "last_price": 106.2812,
+        "day_change_pct": -0.12,
+        "pulse_score": 90,
         "pulse_label": "BULLISH",
         "metrics": {
-          "vwap": 106.1696,
-          "price_vs_vwap_pct": 0.12,
+          "vwap": 106.1707,
+          "price_vs_vwap_pct": 0.1,
           "opening_range_high": 105.9531,
           "opening_range_low": 105.7031,
           "opening_range_state": "Above OR High",
-          "ema20": 106.3488,
-          "ema50": 106.2857,
+          "ema20": 106.3473,
+          "ema50": 106.2851,
           "ema_stack": "Mixed Stack",
           "pivot": 105.2865,
-          "price_vs_pivot_pct": 0.96,
+          "price_vs_pivot_pct": 0.94,
           "prior_day_high": 105.5625,
           "prior_day_low": 105.0469,
-          "price_vs_prior_high_pct": 0.7,
-          "price_vs_prior_low_pct": 1.19,
+          "price_vs_prior_high_pct": 0.68,
+          "price_vs_prior_low_pct": 1.18,
           "session_structure": "AM Range Breakout Up"
         },
         "spark": {
@@ -16402,8 +16422,8 @@
             },
             {
               "t": "2026-10-22T20:00:00Z",
-              "p": 106.2969,
-              "v": 7216
+              "p": 106.2812,
+              "v": 28922
             }
           ],
           "yesterday": [
@@ -16806,10 +16826,10 @@
         }
       },
       "confluence": {
-        "score": 74,
+        "score": 69,
         "label": "BULLISH",
         "cot_score": 52,
-        "technical_score": 100,
+        "technical_score": 90,
         "cot_weight": 55,
         "technical_weight": 45,
         "headline": "Bias bullish: expect dips bought while price holds above 106.17.",
@@ -18105,11 +18125,11 @@
         "label": "2-Year U.S. Treasury Notes",
         "as_of_utc": "2026-10-22T20:00:00Z",
         "last_price": 102.125,
-        "day_change_pct": 0.3,
-        "pulse_score": 100,
+        "day_change_pct": -0.05,
+        "pulse_score": 90,
         "pulse_label": "BULLISH",
         "metrics": {
-          "vwap": 102.1012,
+          "vwap": 102.1013,
           "price_vs_vwap_pct": 0.02,
           "opening_range_high": 102.0273,
           "opening_range_low": 101.9648,
@@ -18520,7 +18540,7 @@
             {
               "t": "2026-10-22T20:00:00Z",
               "p": 102.125,
-              "v": 5699
+              "v": 10986
             }
           ],
           "yesterday": [
@@ -18923,10 +18943,10 @@
         }
       },
       "confluence": {
-        "score": 74,
+        "score": 69,
         "label": "BULLISH",
         "cot_score": 52,
-        "technical_score": 100,
+        "technical_score": 90,
         "cot_weight": 55,
         "technical_weight": 45,
         "headline": "Bias bullish: expect dips bought while price holds above 102.10.",
@@ -19000,25 +19020,25 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "as_of_utc": "2026-10-22T20:00:00Z",
-        "last_price": 527.8617,
-        "day_change_pct": 0.03,
+        "last_price": 527.89,
+        "day_change_pct": 0.04,
         "pulse_score": 100,
         "pulse_label": "BULLISH",
         "metrics": {
-          "vwap": 526.756,
+          "vwap": 526.7612,
           "price_vs_vwap_pct": 0.21,
           "opening_range_high": 527.34,
           "opening_range_low": 524.825,
           "opening_range_state": "Above OR High",
-          "ema20": 527.2122,
-          "ema50": 526.9815,
+          "ema20": 527.2149,
+          "ema50": 526.9826,
           "ema_stack": "Bull Stack",
           "pivot": 526.21,
-          "price_vs_pivot_pct": 0.31,
+          "price_vs_pivot_pct": 0.32,
           "prior_day_high": 527.7899,
           "prior_day_low": 523.15,
-          "price_vs_prior_high_pct": 0.01,
-          "price_vs_prior_low_pct": 0.9,
+          "price_vs_prior_high_pct": 0.02,
+          "price_vs_prior_low_pct": 0.91,
           "session_structure": "AM Range Breakout Up"
         },
         "spark": {
@@ -19411,11 +19431,11 @@
             {
               "t": "2026-10-22T19:55:00Z",
               "p": 527.88,
-              "v": 163479
+              "v": 177598
             },
             {
               "t": "2026-10-22T20:00:00Z",
-              "p": 527.8617,
+              "p": 527.89,
               "v": 0
             }
           ],
@@ -20656,25 +20676,25 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "as_of_utc": "2026-10-22T20:00:00Z",
-        "last_price": 764.06,
-        "day_change_pct": -1.17,
+        "last_price": 763.96,
+        "day_change_pct": -1.18,
         "pulse_score": 36,
         "pulse_label": "BEARISH",
         "metrics": {
-          "vwap": 763.4884,
-          "price_vs_vwap_pct": 0.07,
+          "vwap": 763.4909,
+          "price_vs_vwap_pct": 0.06,
           "opening_range_high": 767.45,
           "opening_range_low": 765.35,
           "opening_range_state": "Below OR Low",
-          "ema20": 762.7889,
-          "ema50": 763.1319,
+          "ema20": 762.7811,
+          "ema50": 763.1287,
           "ema_stack": "Mixed Stack",
           "pivot": 771.99,
-          "price_vs_pivot_pct": -1.03,
+          "price_vs_pivot_pct": -1.04,
           "prior_day_high": 774.44,
           "prior_day_low": 768.4,
-          "price_vs_prior_high_pct": -1.34,
-          "price_vs_prior_low_pct": -0.56,
+          "price_vs_prior_high_pct": -1.35,
+          "price_vs_prior_low_pct": -0.58,
           "session_structure": "Rotation Around VWAP"
         },
         "spark": {
@@ -21066,12 +21086,12 @@
             },
             {
               "t": "2026-10-22T19:55:00Z",
-              "p": 763.97,
-              "v": 4555772
+              "p": 763.99,
+              "v": 5063585
             },
             {
               "t": "2026-10-22T20:00:00Z",
-              "p": 764.06,
+              "p": 763.96,
               "v": 0
             }
           ],
@@ -21476,33 +21496,33 @@
       "market_key": "dxy",
       "cot_score": 81,
       "cot_label": "BULLISH",
-      "pulse_score": 0,
+      "pulse_score": 10,
       "pulse_label": "BEARISH",
-      "confluence_score": 45,
+      "confluence_score": 49,
       "confluence_label": "NEUTRAL",
       "intraday": {
         "symbol": "DX-Y.NYB",
         "label": "U.S. Dollar Index",
         "as_of_utc": "2026-10-22T20:00:00Z",
-        "last_price": 101.634,
-        "day_change_pct": -0.14,
-        "pulse_score": 0,
+        "last_price": 101.646,
+        "day_change_pct": 0.04,
+        "pulse_score": 10,
         "pulse_label": "BEARISH",
         "metrics": {
-          "vwap": 101.6904,
-          "price_vs_vwap_pct": -0.06,
+          "vwap": 101.6905,
+          "price_vs_vwap_pct": -0.04,
           "opening_range_high": 101.848,
           "opening_range_low": 101.791,
           "opening_range_state": "Below OR Low",
-          "ema20": 101.6185,
-          "ema50": 101.6416,
+          "ema20": 101.6196,
+          "ema50": 101.642,
           "ema_stack": "Mixed Stack",
           "pivot": 101.726,
-          "price_vs_pivot_pct": -0.09,
+          "price_vs_pivot_pct": -0.08,
           "prior_day_high": 101.838,
           "prior_day_low": 101.637,
-          "price_vs_prior_high_pct": -0.2,
-          "price_vs_prior_low_pct": -0.0,
+          "price_vs_prior_high_pct": -0.19,
+          "price_vs_prior_low_pct": 0.01,
           "session_structure": "AM Range Breakout Down"
         },
         "spark": {
@@ -21899,7 +21919,7 @@
             },
             {
               "t": "2026-10-22T20:00:00Z",
-              "p": 101.634,
+              "p": 101.646,
               "v": 0
             }
           ],
@@ -22316,19 +22336,19 @@
       "intraday": {
         "symbol": "^RUT",
         "label": "Russell 2000",
-        "as_of_utc": "2026-10-22T19:55:00Z",
-        "last_price": 2783.9888,
+        "as_of_utc": "2026-10-22T20:00:00Z",
+        "last_price": 2784.0261,
         "day_change_pct": 0.11,
         "pulse_score": 100,
         "pulse_label": "BULLISH",
         "metrics": {
-          "vwap": 2774.6309,
-          "price_vs_vwap_pct": 0.34,
+          "vwap": 2774.7495,
+          "price_vs_vwap_pct": 0.33,
           "opening_range_high": 2781.6816,
           "opening_range_low": 2762.7332,
           "opening_range_state": "Above OR High",
-          "ema20": 2777.5357,
-          "ema50": 2775.7324,
+          "ema20": 2778.1513,
+          "ema50": 2776.0565,
           "ema_stack": "Bull Stack",
           "pivot": 2781.8009,
           "price_vs_pivot_pct": 0.08,
@@ -22727,7 +22747,12 @@
             },
             {
               "t": "2026-10-22T19:55:00Z",
-              "p": 2783.9888,
+              "p": 2783.9595,
+              "v": 0
+            },
+            {
+              "t": "2026-10-22T20:00:00Z",
+              "p": 2784.0261,
               "v": 0
             }
           ],
@@ -23132,34 +23157,34 @@
       "market_key": "vix",
       "cot_score": 29,
       "cot_label": "BEARISH",
-      "pulse_score": 88,
-      "pulse_label": "BULLISH",
-      "confluence_score": 56,
-      "confluence_label": "NEUTRAL",
+      "pulse_score": 52,
+      "pulse_label": "NEUTRAL",
+      "confluence_score": 39,
+      "confluence_label": "BEARISH",
       "intraday": {
         "symbol": "^VIX",
         "label": "VIX Futures",
-        "as_of_utc": "2026-10-22T19:56:31Z",
-        "last_price": 19.22,
-        "day_change_pct": 15.23,
-        "pulse_score": 88,
-        "pulse_label": "BULLISH",
+        "as_of_utc": "2026-10-22T20:15:00Z",
+        "last_price": 19.03,
+        "day_change_pct": 14.09,
+        "pulse_score": 52,
+        "pulse_label": "NEUTRAL",
         "metrics": {
-          "vwap": 19.194,
-          "price_vs_vwap_pct": 0.14,
+          "vwap": 19.1799,
+          "price_vs_vwap_pct": -0.78,
           "opening_range_high": 19.37,
           "opening_range_low": 19.02,
           "opening_range_state": "Inside OR",
-          "ema20": 19.5571,
-          "ema50": 19.4103,
+          "ema20": 19.3862,
+          "ema50": 19.3501,
           "ema_stack": "Mixed Stack",
           "pivot": 16.87,
-          "price_vs_pivot_pct": 13.93,
+          "price_vs_pivot_pct": 12.8,
           "prior_day_high": 17.42,
           "prior_day_low": 16.51,
-          "price_vs_prior_high_pct": 10.33,
-          "price_vs_prior_low_pct": 16.41,
-          "session_structure": "Rotation Around VWAP"
+          "price_vs_prior_high_pct": 9.24,
+          "price_vs_prior_low_pct": 15.26,
+          "session_structure": "Trend Continuation"
         },
         "spark": {
           "today": [
@@ -23490,12 +23515,27 @@
             },
             {
               "t": "2026-10-22T19:55:00Z",
-              "p": 19.27,
+              "p": 19.12,
               "v": 0
             },
             {
-              "t": "2026-10-22T19:56:31Z",
-              "p": 19.22,
+              "t": "2026-10-22T20:00:00Z",
+              "p": 18.87,
+              "v": 0
+            },
+            {
+              "t": "2026-10-22T20:05:00Z",
+              "p": 19.02,
+              "v": 0
+            },
+            {
+              "t": "2026-10-22T20:10:00Z",
+              "p": 19.04,
+              "v": 0
+            },
+            {
+              "t": "2026-10-22T20:15:00Z",
+              "p": 19.03,
               "v": 0
             }
           ],
@@ -23863,13 +23903,13 @@
         "symbol": "6E=F",
         "label": "EUR/USD Futures",
         "as_of_utc": "2026-10-22T20:00:00Z",
-        "last_price": 1.124,
-        "day_change_pct": -0.08,
+        "last_price": 1.1238,
+        "day_change_pct": -0.04,
         "pulse_score": 66,
         "pulse_label": "BULLISH",
         "metrics": {
           "vwap": 1.1233,
-          "price_vs_vwap_pct": 0.06,
+          "price_vs_vwap_pct": 0.05,
           "opening_range_high": 1.1227,
           "opening_range_low": 1.1217,
           "opening_range_state": "Above OR High",
@@ -23877,11 +23917,11 @@
           "ema50": 1.1241,
           "ema_stack": "Mixed Stack",
           "pivot": 1.1254,
-          "price_vs_pivot_pct": -0.13,
+          "price_vs_pivot_pct": -0.14,
           "prior_day_high": 1.1266,
           "prior_day_low": 1.124,
-          "price_vs_prior_high_pct": -0.23,
-          "price_vs_prior_low_pct": 0.0,
+          "price_vs_prior_high_pct": -0.24,
+          "price_vs_prior_low_pct": -0.01,
           "session_structure": "AM Range Breakout Up"
         },
         "spark": {
@@ -24278,8 +24318,8 @@
             },
             {
               "t": "2026-10-22T20:00:00Z",
-              "p": 1.124,
-              "v": 94
+              "p": 1.1238,
+              "v": 490
             }
           ],
           "yesterday": [
@@ -24688,33 +24728,33 @@
       "market_key": "treasury_10y",
       "cot_score": 52,
       "cot_label": "NEUTRAL",
-      "pulse_score": 100,
+      "pulse_score": 90,
       "pulse_label": "BULLISH",
-      "confluence_score": 74,
+      "confluence_score": 69,
       "confluence_label": "BULLISH",
       "intraday": {
         "symbol": "ZN=F",
         "label": "10-Year U.S. Treasury Notes",
         "as_of_utc": "2026-10-22T20:00:00Z",
-        "last_price": 106.2969,
-        "day_change_pct": 1.13,
-        "pulse_score": 100,
+        "last_price": 106.2812,
+        "day_change_pct": -0.12,
+        "pulse_score": 90,
         "pulse_label": "BULLISH",
         "metrics": {
-          "vwap": 106.1696,
-          "price_vs_vwap_pct": 0.12,
+          "vwap": 106.1707,
+          "price_vs_vwap_pct": 0.1,
           "opening_range_high": 105.9531,
           "opening_range_low": 105.7031,
           "opening_range_state": "Above OR High",
-          "ema20": 106.3488,
-          "ema50": 106.2857,
+          "ema20": 106.3473,
+          "ema50": 106.2851,
           "ema_stack": "Mixed Stack",
           "pivot": 105.2865,
-          "price_vs_pivot_pct": 0.96,
+          "price_vs_pivot_pct": 0.94,
           "prior_day_high": 105.5625,
           "prior_day_low": 105.0469,
-          "price_vs_prior_high_pct": 0.7,
-          "price_vs_prior_low_pct": 1.19,
+          "price_vs_prior_high_pct": 0.68,
+          "price_vs_prior_low_pct": 1.18,
           "session_structure": "AM Range Breakout Up"
         },
         "spark": {
@@ -25111,8 +25151,8 @@
             },
             {
               "t": "2026-10-22T20:00:00Z",
-              "p": 106.2969,
-              "v": 7216
+              "p": 106.2812,
+              "v": 28922
             }
           ],
           "yesterday": [
@@ -25521,20 +25561,20 @@
       "market_key": "treasury_2y",
       "cot_score": 52,
       "cot_label": "NEUTRAL",
-      "pulse_score": 100,
+      "pulse_score": 90,
       "pulse_label": "BULLISH",
-      "confluence_score": 74,
+      "confluence_score": 69,
       "confluence_label": "BULLISH",
       "intraday": {
         "symbol": "ZT=F",
         "label": "2-Year U.S. Treasury Notes",
         "as_of_utc": "2026-10-22T20:00:00Z",
         "last_price": 102.125,
-        "day_change_pct": 0.3,
-        "pulse_score": 100,
+        "day_change_pct": -0.05,
+        "pulse_score": 90,
         "pulse_label": "BULLISH",
         "metrics": {
-          "vwap": 102.1012,
+          "vwap": 102.1013,
           "price_vs_vwap_pct": 0.02,
           "opening_range_high": 102.0273,
           "opening_range_low": 101.9648,
@@ -25945,7 +25985,7 @@
             {
               "t": "2026-10-22T20:00:00Z",
               "p": 102.125,
-              "v": 5699
+              "v": 10986
             }
           ],
           "yesterday": [
@@ -26351,7 +26391,7 @@
   },
   "forex_factory": {
     "source": "https://nfs.faireconomy.media/ff_calendar_thisweek.xml",
-    "fetched_at_utc": "2026-10-22T20:11:37Z",
+    "fetched_at_utc": "2026-10-22T23:24:54Z",
     "red_folder_count": 0,
     "high_impact_total_count": 5,
     "relevance_filter": "Major USD macro/Fed events for US index trading",
